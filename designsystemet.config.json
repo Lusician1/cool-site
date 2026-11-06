@@ -4,10 +4,19 @@
   "themes": {
     "theme": {
       "colors": {
-        "accent": "#4fe7ff",
-        "brand1": "#800ea2",
-        "brand2": "#3ef3c2",
-        "neutral": "#778393"
+        "accent": "#c35627",
+        "brand1": "#30525c",
+        "brand2": "#d6794d",
+        "neutral": "#bfb9b5"
+      },
+      "overrides": {
+        "colors": {
+          "brand2": {
+            "background-tinted": {
+              "light": "#dcaa89"
+            }
+          }
+        }
       },
       "borderRadius": 4
     }
