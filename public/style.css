@@ -1,0 +1,38 @@
+/* --------- Variables ----------- */
+:root {
+  --bg-dark: #200036;
+  --bg-light: rgb(238, 238, 238);
+  --bright: rgb(244, 250, 255);
+
+  --radius-lg: 25px;
+}
+
+/* ------------ Main ------------- */
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-dark);
+  display: flex;
+  margin: 0;
+  color: var(--bright);
+}
+
+main {
+  height: 100%;
+  flex: 1;
+  background-color: var(--bg-light);
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+}
+
+nav {
+  height: 100%;
+  width: 30%;
+  padding: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--bright);
+}
